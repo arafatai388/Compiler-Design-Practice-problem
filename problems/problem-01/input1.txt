@@ -1,0 +1,13 @@
+/* Header Comment */
+
+#include<stdio.h>
+
+int    main()
+{
+    // Variable
+    int    x = 100;
+
+    printf("Compiler Design");
+
+    return 0;
+}

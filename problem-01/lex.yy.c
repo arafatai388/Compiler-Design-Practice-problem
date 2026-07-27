@@ -1522,7 +1522,7 @@ int main()
 int main()
 {
     freopen("input1.txt","r",stdin);
-    freopen("output1.txt","w",stdout);
+    freopen("output.txt","w",stdout);
 
     yylex();
 

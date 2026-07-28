@@ -1,0 +1,4 @@
+"Hello" : STRING
+'A' : CHARACTER
+"Compiler Design" : STRING
+ERROR : Unterminated String

@@ -1,0 +1,8 @@
+int main()
+{
+    int age = 20;
+    int student_name = 100;
+    int this_identifier_name_is_more_than_thirty_one_characters = 50;
+
+    return 0;
+}

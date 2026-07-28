@@ -1,0 +1,24 @@
+int : KEYWORD
+main : IDENTIFIER
+( : PUNCTUATION
+) : PUNCTUATION
+{ : PUNCTUATION
+int : KEYWORD
+age : IDENTIFIER
+= : OPERATOR
+20 : NUMBER
+; : PUNCTUATION
+int : KEYWORD
+student_name : IDENTIFIER
+= : OPERATOR
+100 : NUMBER
+; : PUNCTUATION
+int : KEYWORD
+this_identifier_name_is_more_than_thirty_one_characters : IDENTIFIER (ERROR: Too Long)
+= : OPERATOR
+50 : NUMBER
+; : PUNCTUATION
+return : KEYWORD
+0 : NUMBER
+; : PUNCTUATION
+} : PUNCTUATION

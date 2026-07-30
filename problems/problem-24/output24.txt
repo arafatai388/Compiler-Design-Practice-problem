@@ -1,0 +1,4 @@
+x = 5
+Syntax Error Found
+z = 10
+a = 12

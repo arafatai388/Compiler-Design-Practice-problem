@@ -1,0 +1,5 @@
+#define PI 3.14
+#define MAX 100
+
+float area = PI * 5 * 5;
+int n = MAX;

@@ -1,0 +1,12 @@
+int a;
+float b;
+char c;
+
+a = 10;
+b = a;
+
+int a;
+double d;
+
+d = a;
+x = 5;

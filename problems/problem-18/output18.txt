@@ -1,0 +1,16 @@
+int : KEYWORD
+a : Inserted into Symbol Table
+float : KEYWORD
+b : Inserted into Symbol Table
+char : KEYWORD
+c : Inserted into Symbol Table
+a : Used
+b : Used
+a : Used
+int : KEYWORD
+a : Duplicate Declaration
+double : KEYWORD
+d : Inserted into Symbol Table
+d : Used
+a : Used
+x : Undeclared Identifier

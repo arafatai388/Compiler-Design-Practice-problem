@@ -1,0 +1,15 @@
+NFA Transition Table
+
+State	 a	 b
+A	 AB	 A
+B	 -	 C
+C	 C	 C
+
+Equivalent DFA Transition Table
+
+State	 a	 b
+A	 AB	 A
+AB	 AB-	 AC
+AC	 ABC	 AC
+BC	 -C	 CC
+ABC	 AB-C	 ACC

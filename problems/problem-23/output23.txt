@@ -1,0 +1,7 @@
+x = 5
+y = 8
+z = 16
+a = 7
+Result = 13
+Result = 26
+Result = 7

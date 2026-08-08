@@ -762,72 +762,50 @@ do_action:	/* This label is used only to access EOF actions. */
 case 1:
 YY_RULE_SETUP
 #line 10 "problem9.l"
-{
-    printf("%s : KEYWORD (Line %d, Column %d)\n", yytext, line, column);
-    column += yyleng;
-}
+{ printf("%s : KEYWORD (Line %d, Column %d)\n", yytext, line, column); column += yyleng; }
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 15 "problem9.l"
-{
-    printf("%s : IDENTIFIER (Line %d, Column %d)\n", yytext, line, column);
-    column += yyleng;
-}
+#line 12 "problem9.l"
+{ printf("%s : IDENTIFIER (Line %d, Column %d)\n", yytext, line, column); column += yyleng; }
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 20 "problem9.l"
-{
-    printf("%s : NUMBER (Line %d, Column %d)\n", yytext, line, column);
-    column += yyleng;
-}
+#line 14 "problem9.l"
+{ printf("%s : NUMBER (Line %d, Column %d)\n", yytext, line, column); column += yyleng; }
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 25 "problem9.l"
-{
-    printf("%s : OPERATOR (Line %d, Column %d)\n", yytext, line, column);
-    column += yyleng;
-}
+#line 16 "problem9.l"
+{ printf("%s : OPERATOR (Line %d, Column %d)\n", yytext, line, column); column += yyleng; }
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 30 "problem9.l"
-{
-    printf("%s : PUNCTUATION (Line %d, Column %d)\n", yytext, line, column);
-    column += yyleng;
-}
+#line 18 "problem9.l"
+{ printf("%s : PUNCTUATION (Line %d, Column %d)\n", yytext, line, column); column += yyleng; }
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 35 "problem9.l"
-{
-    column += yyleng;
-}
+#line 20 "problem9.l"
+{ column += yyleng; }
 	YY_BREAK
 case 7:
 /* rule 7 can match eol */
 YY_RULE_SETUP
-#line 39 "problem9.l"
-{
-    line++;
-    column = 1;
-}
+#line 22 "problem9.l"
+{ line++; column = 1; }
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 44 "problem9.l"
-{
-    column += yyleng;
-}
+#line 24 "problem9.l"
+{ column += yyleng; }
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 48 "problem9.l"
+#line 26 "problem9.l"
 ECHO;
 	YY_BREAK
-#line 830 "lex.yy.c"
+#line 808 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -1832,7 +1810,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 48 "problem9.l"
+#line 26 "problem9.l"
 
 
 int main()

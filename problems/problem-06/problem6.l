@@ -4,15 +4,17 @@
 
 %%
 
-\".*\"          { printf("%s : STRING\n", yytext); }
+\"([^\"\\\n]|\\[nt\"\\])*\"       { printf("%s : STRING\n", yytext); }
 
-\'.\'           { printf("%s : CHARACTER\n", yytext); }
+\'([^\'\\\n]|\\[nt'\\])\'        { printf("%s : CHARACTER\n", yytext); }
 
-\".*            { printf("ERROR : Unterminated String\n"); }
+\"([^\"\\\n]|\\[nt\"\\])*         { printf("ERROR : Unterminated String\n"); }
 
-[ \t\n]+        { }
+\'([^\'\\\n]|\\[nt'\\])            { printf("ERROR : Unterminated Character\n"); }
 
-.               { }
+[ \t\n]+                           { }
+
+.                                  { }
 
 %%
 
